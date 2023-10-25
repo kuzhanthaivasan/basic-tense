@@ -1,0 +1,128 @@
+*
+{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+.menu-bar 
+{
+    background: rgb();
+    background-color: rgba(4, 176, 255, 0.918);
+    text-align:center;
+    background-origin: padding-box;
+}
+.menu-bar ul
+{
+    display: inline-flex;
+    list-style: none;
+    color: beige;
+}
+.menu-bar ul li
+{
+    width: 200px;
+    margin: 20px;
+    padding: 15px;
+}
+.menu-bar ul li a
+{
+    text-decoration: none;
+    color: beige;
+}
+.active,.menu-bar ul li:hover
+{
+    background-color: rgb(146, 216, 238);
+    border-radius: 5px;
+}
+
+.sub-menu-1
+{
+    display:none;
+}
+.menu-bar ul li:hover .sub-menu-1
+{
+     display: block;
+     position:absolute;
+     background: rgb(226, 145, 149);
+     margin-top: 15px;
+     margin-left: -15px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul
+{
+    display:block;
+    margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li
+{
+    width:150px;
+    padding:10px;
+    border-bottom:1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child
+{
+    border-bottom: none;
+}
+.box
+{
+    margin: 10px; 
+    background-color: rgba(64, 124, 214, 0.8);
+    color: #fff;
+    text-align: center;
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgb(112, 103, 103);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.box1
+{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    padding-top: 5px;
+    margin: 10px; 
+    background-color: rgba(248, 236, 236, 0.8);
+    color: #0c0b0b;
+    text-align: justify;
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgb(112, 103, 103);
+}
+.box2{
+
+
+padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    margin: 50px; 
+    background-color: rgba(248, 236, 236, 0.8);
+    color: #0c0b0b;
+    text-align:center;
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgb(112, 103, 103);
+
+    
+}
+body
+{
+background-image: url(logo.png);
+height: 500px;
+background-position:center;
+background-repeat:no-repeat;
+font-family:sans-serif;
+background-attachment: fixed;
+}
+.box2 table td{
+    text-align: center;
+    table-layout: fixed;
+    width: 20px;
+}
+img{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
